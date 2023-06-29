@@ -1,0 +1,25 @@
+*{
+    color: white;
+    background-color: rgb(23, 3, 3);
+}
+#div1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    text-align: center;
+}
+#div2 {
+    text-align: center;
+    font-size: larger;
+}
+.box1{
+    font-size: 30px;
+    text-decoration: solid;
+    text-transform:inherit;
+    text-align: justify;
+}
+.box2{
+    font-size: 25px;
+    line-height: 40px;
+}

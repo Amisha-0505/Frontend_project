@@ -1,0 +1,352 @@
+body{
+    margin: 0px;
+    background-color: rgb(252, 248, 243);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head img{
+   height: 60vh;
+   width: 100%;
+   object-fit: cover;
+}
+.horlist{
+    position:absolute;
+    /* text-align: center; */
+    align-self: center;
+}
+.horlist ul{
+    list-style: none;
+    padding: 0px;
+    font-size:30px;
+    word-spacing: 2.5rem;
+}
+.horlist li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horlist li a{
+    color: black;
+    text-decoration: none;
+    transition: color 1s,border-bottom 4s ;
+}
+.horlist li a:hover{
+    color: rgba(178, 53, 128, 0.744);
+    border-bottom: 1px solid black;
+}
+#name{
+    font-size: 5rem;
+    position:absolute;
+    margin-top: 30vh;
+    align-self: center;
+    color:rgb(35, 4, 36);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#pic {
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: -14vh;
+}
+#pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#para{
+    width: 70%;
+    height: 100%;
+    color: gray;
+    padding: 10px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#skill h1{
+    font-size: 40px;
+    text-align: center;
+}
+.v{
+    display: flex;
+    gap: 2em;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.sdisplay{
+    width: 30vh;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgb(185, 188, 188);
+    border:3px solid rgba(0, 0, 0, 0.764);
+    border-radius: 1rem;
+    margin-left: 40px;
+}
+.pdisplay{
+    width:10em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(70, 70, 227);
+}
+.pdisplayc{
+    width:12em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(186, 178, 40);
+}    
+.pdisplayp{
+    width:8em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(55, 175, 145);
+}
+.pdisplayh{
+    width:11em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(175, 80, 192);
+}
+.pdisplaycs{
+    width:9.7em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(227, 66, 120);
+}
+.pdisplayj{
+    width:10.8em ;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(59, 80, 125);
+}
+.sname{
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: larger;
+}
+#experience h1{
+    margin-top: 2em;
+    font-size: 40px;
+    text-align: center;
+}
+#education h1{
+    margin-top: 2em;
+    font-size: 40px;
+    text-align: center;
+}
+#portfolio h1{
+    margin-top: 2em;
+    font-size: 40px;
+    text-align: center;
+}
+#contact h1{
+    margin-top: 2em;
+    font-size: 40px;
+    text-align: center;
+}
+#para1{
+    width: 70%;
+    height: 100%;
+    color: rgb(206, 158, 158);
+    padding: 10px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.edisplay{
+    position: relative;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    height: 100%;
+    border: 2px solid rgb(241, 235, 235);
+}
+.ebox{
+    position: relative;
+    margin: 20px;
+    width: 40%;
+    left: 5%;
+    min-height: 180px;
+    border: 2px solid rgb(240, 229, 229);
+    background-color: rgb(217, 233, 173);
+}
+#ten{
+    font-weight: 600;
+    color: rgb(36, 36, 169);
+    font-size:2rem;
+    margin-left: 18rem;
+    margin-top: 0.2em;
+}
+#ts{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 5em; 
+    margin-top: -30px;
+    color: rgb(21, 174, 123);
+}
+#wb{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 11em; 
+    margin-top: -20px; 
+    color: rgb(162, 124, 198);
+}
+.ebox1{
+    position: relative;
+    margin: 20px;
+    width: 40%;
+    left: 45%;
+    min-height: 180px;
+    border: 2px solid rgb(238, 225, 225);
+    background-color: rgb(189, 230, 179);
+}
+#twe{
+    font-weight: 600;
+    color: rgb(24, 24, 133);
+    font-size:2rem;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+}
+#ws{
+    font-weight: 800;
+    font-size:1.5rem;
+     margin-left: 0.2em;
+    margin-top: -30px;
+    color: rgb(24, 118, 86);
+
+}
+#wb1{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 0.2em; 
+    margin-top: -20px; 
+    color: rgb(106, 73, 137);
+}
+.ebox2{
+    position: relative;
+    margin: 20px;
+    width: 40%;
+    left: 5%;
+    min-height: 180px;
+    border: 2px solid rgb(249, 245, 245);
+    background-color: rgb(172, 231, 231);
+}
+#btech{
+    font-weight: 600;
+    color: rgb(4, 4, 81);
+    font-size:2rem;
+    margin-left: 19rem;
+    margin-top: 0.2em;
+}
+#bs{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 6em; 
+    margin-top: -30px;
+    color: rgb(17, 65, 49);
+}
+#wb2{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 10em; 
+    margin-top: -20px; 
+    color: rgb(67, 39, 94);
+}
+.c{
+    display: flex;
+    gap: 2em;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.cdisplay{
+    width: 90vh;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgb(12, 67, 96);
+    border:3px solid rgba(252, 238, 238, 0.764);
+    /* border-radius: 1rem; */
+    margin-left: 40px;
+}
+#no{
+ font-weight: 600;
+ font-size: 1.5em;
+ padding-left:40%;
+ margin-top: 0.2em;
+ color: antiquewhite;
+}
+.cdisplay1{
+    width: 90vh;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgb(53, 15, 101);
+    border:3px solid rgba(250, 232, 232, 0.764);
+    /* border-radius: 1rem; */
+    margin-left: 40px;
+}
+#em{
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-left:25%;
+    margin-top: 0.2em;
+    color: antiquewhite;
+}
+.cdisplay2{
+    width: 90vh;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgb(101, 15, 41);
+    border:3px solid rgba(250, 232, 232, 0.764);
+    /* border-radius: 1rem; */
+    margin-left: 40px;
+}
+#fb{
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+    margin-left: 0.2em; 
+    color: antiquewhite;
+}
+.cdisplay3{
+    width: 90vh;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgb(15, 101, 74);
+    border:3px solid rgba(250, 232, 232, 0.764);
+    /* border-radius: 1rem; */
+    margin-left: 40px;
+}
+#insta{
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-top: 0.2em; 
+    margin-left: 0.2em;
+    color: antiquewhite; 
+}
