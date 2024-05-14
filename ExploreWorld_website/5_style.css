@@ -30,11 +30,13 @@ a{
     background-color: #fc036b;
     margin: 10px auto;
     border-radius: 5px;
+    color: azure;
 }
 .head h1{
     font-size: 7vmin;
     margin-top: 50px ;
     margin-bottom: 30px;
+    color: aliceblue;
 }
 .ctn{
     padding: 8px 15px ;
@@ -114,7 +116,7 @@ a{
     font-weight: 600;
 } 
 .heading h3{
-    color: black;
+    color: white;
     margin-left: 35em;
     margin-top: -39px;
     margin-bottom: 100px;
